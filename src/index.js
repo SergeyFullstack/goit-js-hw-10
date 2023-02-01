@@ -38,7 +38,6 @@ function onInputSearch(e) {
         .catch(error => {
             countriesList.innerHTML = '';
             countryInfo.innerHTML = '';
-            countryInfo.style.visibility = 'hidden';
             Notify.failure('ops, there is no country with that name.');
         
         
